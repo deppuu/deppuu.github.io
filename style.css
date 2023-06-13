@@ -1,0 +1,85 @@
+<html> 
+
+body{
+    margin:0;
+    padding:0;
+}
+
+body{background-image:url(23.png);}
+
+.maindiv{
+    width:100%;
+    height:100%;
+
+}
+
+
+
+.div{
+    color:rgb(216, 219, 170);
+    border: 0.8vh solid rgb(69, 185, 140);
+    background:none;
+    font-size: 2rem;
+    padding:2px;
+    margin: 2px;
+    float:right;
+
+}
+
+.div:hover{
+    background-color: rgb(226, 224, 115);
+    font-size:2rem;
+}
+
+
+
+.containt{
+    width:100%;
+    text-align: center;
+}
+
+#hello{
+    color: rgb(8, 111, 124);
+    font-size: 10vh;
+}
+
+#data{
+    font-size: 5vh;
+}
+
+#anime{
+    height: 2rem;
+    width: 2rem;
+    animation-name: anime;
+    position: relative;
+    animation-duration: 4s;
+    background-color:none;
+    position: relative;
+    animation-iteration-count:2;
+    animation-direction: alternate-reverse;
+    
+   }
+
+   @keyframes anime{
+
+    0%{ background-color:aqua; top:0 ; left: 60%; }
+    25%   {background-color:pink; top: 50%; left: 60%;}
+    50%   {background-color: brown;top:50%; left:40%}
+    75%   {background-color: rgb(139, 70, 185);top:0%; left:40%}
+    100%   {background-color: rgb(185, 70, 160);top:0%; left: 60%}
+   }
+
+
+   
+.footer{
+    text-align: center;
+    color:aliceblue;
+    height:5vh;
+    width:100%;
+    background-color:none;
+}
+
+
+
+
+</html>
